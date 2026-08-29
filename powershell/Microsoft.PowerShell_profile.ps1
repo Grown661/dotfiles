@@ -8,7 +8,7 @@ function ll { Get-ChildItem -Force @args | Sort-Object -Property @{e={$_.PSIsCon
 function gs { git status -sb @args }
 function gl { git log --oneline --graph --decorate -20 @args }
 function ga { git add @args }
-function gc { git commit @args }
+function gcom { git commit @args }
 
 # --- Navigation ------------------------------------------------------------
 function mkcd {

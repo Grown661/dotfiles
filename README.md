@@ -12,7 +12,7 @@ daraus einen Befehl — idempotent und mit Backup der bestehenden Dateien.
 ## Features
 
 - **Git**: Aliase (`st`, `lg`, `amend`, `wip`), `pull.rebase`, `main` als Default-Branch, `zdiff3`-Konflikte
-- **PowerShell**: `ll`, `gs`, `mkcd`, `which`, `serve`, kompakter Prompt
+- **PowerShell**: `ll`, `gs`, `gcom` (git commit), `mkcd`, `which`, `serve`, kompakter Prompt
 - **Bash**: Aliase + `extract`-Funktion für beliebige Archive, bessere History
 - **VS Code**: aufgeräumte Defaults (format on save, keine Minimap, Telemetrie aus)
 - **Installer**: `install.sh` (symlinks, `--dry-run`) und `install.ps1` (Kopien mit Backup, `-DryRun`)
