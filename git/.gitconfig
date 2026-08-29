@@ -1,0 +1,45 @@
+# ~/.gitconfig — global Git configuration
+# Replace the placeholders below before use (or set via `git config --global`).
+
+[user]
+	name = YOUR NAME
+	email = you@example.com
+
+[init]
+	defaultBranch = main
+
+[pull]
+	rebase = true
+
+[push]
+	autoSetupRemote = true
+
+[fetch]
+	prune = true
+
+[color]
+	ui = auto
+
+[core]
+	autocrlf = input
+	editor = code --wait
+
+[diff]
+	colorMoved = default
+
+[merge]
+	conflictstyle = zdiff3
+
+[alias]
+	st = status -sb
+	co = checkout
+	sw = switch
+	br = branch -vv
+	ci = commit
+	cm = commit -m
+	amend = commit --amend --no-edit
+	lg = log --oneline --graph --decorate -20
+	last = log -1 HEAD --stat
+	unstage = restore --staged
+	wip = "!git add -A && git commit -m 'wip'"
+	aliases = config --get-regexp '^alias\.'

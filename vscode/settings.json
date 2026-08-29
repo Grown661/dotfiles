@@ -1,0 +1,19 @@
+{
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [100],
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.minimap.enabled": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.autoSave": "onFocusChange",
+  "explorer.confirmDelete": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "terminal.integrated.scrollback": 10000,
+  "workbench.startupEditor": "none",
+  "telemetry.telemetryLevel": "off"
+}
